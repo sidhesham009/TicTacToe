@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/tictactoe"
+    android:background="@drawable/background"
     tools:context="s.mr.tictactoe.MainActivity">
 
     <LinearLayout
@@ -26,7 +26,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="72dp"
-            android:background="#66BB0000"
+            android:background="@color/transperent"
             android:textColor="@color/colorAccent"/>
         <Button
             android:id="@+id/btn2"
@@ -34,7 +34,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="72dp"
-            android:background="#66BB0000"
+            android:background="@color/transperent"
             android:textColor="@color/colorAccent"/>
         <Button
             android:id="@+id/btn3"
@@ -42,7 +42,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="72dp"
-            android:background="#66BB0000"
+            android:background="@color/transperent"
             android:textColor="@color/colorAccent"/>
      </LinearLayout>
      <LinearLayout
@@ -56,7 +56,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="72dp"
-            android:background="#66BB0000"
+            android:background="@color/transperent"
             android:textColor="@color/colorAccent"/>
         <Button
             android:id="@+id/btn5"
@@ -64,7 +64,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="72dp"
-            android:background="#66BB0000"
+            android:background="@color/transperent"
             android:textColor="@color/colorAccent"/>
         <Button
             android:id="@+id/btn6"
@@ -72,7 +72,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="72dp"
-            android:background="#66BB0000"
+            android:background="@color/transperent"
             android:textColor="@color/colorAccent"/>
      </LinearLayout>
      <LinearLayout
@@ -86,7 +86,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="72dp"
-            android:background="#66BB0000"
+            android:background="@color/transperent"
             android:textColor="@color/colorAccent"/>
         <Button
             android:id="@+id/btn8"
@@ -94,7 +94,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="72dp"
-            android:background="#66BB0000"
+            android:background="@color/transperent"
             android:textColor="@color/colorAccent"/>
         <Button
             android:id="@+id/btn9"
@@ -102,7 +102,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="72dp"
-            android:background="#66BB0000"
+            android:background="@color/transperent"
             android:textColor="@color/colorAccent"/>
      </LinearLayout>
     </LinearLayout>
@@ -111,11 +111,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Reset"
+        android:textColor="@color/colorAccent"
         android:textSize="20dp"
         android:textStyle="bold"
-        android:background="#665566"
+        android:background="@color/transperent"
         android:layout_gravity="center"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="40dp"
         />
     <Button
         android:id="@+id/btnexit"
@@ -124,7 +125,7 @@
         android:background="@drawable/exit"
         android:onClick="@String/Exit"
         android:layout_gravity="center"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="10dp"
         />
 
 </LinearLayout>
