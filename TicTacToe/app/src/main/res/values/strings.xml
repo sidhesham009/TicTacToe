@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="Exit">Exit_Game</string>
+    <string name="title_activity_splash">Splash</string>
+</resources>
